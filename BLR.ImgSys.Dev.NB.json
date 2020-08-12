@@ -1,13 +1,4 @@
 {
-  "$id": "1",
-  "Name": "BLR.ImgSys.Dev.NB",
-  "Description": "ImgSys.Dev Night build at STS.\r\n",
-  "ContinuousIntegrationType": 16,
-  "BuildController": "BLR - inblrkisnw4895 -  Controller",
-  "AgileTestSpecs": null,
-  "ProjectsToBuild": null,
-  "ConfigurationsToBuild": null,
-  "QueueStatus": 2,
   "ProcessTemplate": "$/XRay/DevBranches/Team.BLR.CM/BuildTemplates/BLR.Template.1/BLRTemplate.1.xaml",
   "DefaultDropLocation": "\\\\INBLRKISNEM0041.ad005.onehc.net\\HeliumDrop",
   "TfvcAgentSettings": null,

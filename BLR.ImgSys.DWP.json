@@ -15,7 +15,6 @@
     "$id": "2",
     "Json": "{\"MaxExecutionTime\":\"00:00:00\",\"MaxWaitTime\":\"04:00:00\",\"Name\":\"Agent1\",\"Tags\":[],\"TagComparison\":\"MatchExactly\"}"
   },
-  "Schedules": [
     {
       "$id": "3",
       "BuildDefinition": null,
