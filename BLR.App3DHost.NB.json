@@ -1,0 +1,508 @@
+{
+  "$id": "1",
+  "Name": "BLR.App3DHost.NB",
+  "Description": null,
+  "ContinuousIntegrationType": 16,
+  "BuildController": "BLR- inblrkisnw4894 - Controller",
+  "AgileTestSpecs": null,
+  "ProjectsToBuild": null,
+  "ConfigurationsToBuild": null,
+  "QueueStatus": 0,
+  "ProcessTemplate": "#/1/BuildProcessTemplates/TfvcTemplate/TfvcTemplate.12.xaml",
+  "DefaultDropLocation": "\\\\INBLRKISNEM0041.ad005.onehc.net\\HeliumDrop",
+  "TfvcAgentSettings": null,
+  "GitAgentSettings": {
+    "$id": "2",
+    "Json": "{\"MaxExecutionTime\":\"00:00:00\",\"MaxWaitTime\":\"10:00:00\",\"Name\":\"Agent1\",\"Tags\":[],\"TagComparison\":\"MatchExactly\"}"
+  },
+  "Schedules": [
+    {
+      "$id": "3",
+      "BuildDefinition": null,
+      "Type": 0,
+      "StartTime": 18000,
+      "DaysToBuild": 127,
+      "TimeZone": {
+        "$id": "4",
+        "Id": "India Standard Time",
+        "DisplayName": "(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi",
+        "StandardName": "India Standard Time",
+        "DaylightName": "India Daylight Time",
+        "BaseUtcOffset": "05:30:00",
+        "AdjustmentRules": null,
+        "SupportsDaylightSavingTime": false
+      }
+    }
+  ],
+  "ContinuousIntegrationQuietPeriod": 0,
+  "SourceProviders": [
+    {
+      "$id": "5",
+      "Name": "TFVC",
+      "SupportedTriggerTypes": 127,
+      "Fields": {
+        "$id": "6"
+      }
+    }
+  ],
+  "Mappings": [
+    {
+      "$id": "7",
+      "MappingType": 0,
+      "LocalItem": "$(SourceDir)",
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST",
+      "Depth": 120
+    },
+    {
+      "$id": "8",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Docs",
+      "Depth": 120
+    },
+    {
+      "$id": "9",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/Boost-1.56.0",
+      "Depth": 120
+    },
+    {
+      "$id": "10",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/Cera-3.0.4",
+      "Depth": 120
+    },
+    {
+      "$id": "11",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/Coin-4",
+      "Depth": 120
+    },
+    {
+      "$id": "12",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/CTAVMP4-1.0",
+      "Depth": 120
+    },
+    {
+      "$id": "13",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/Cuda-5.0",
+      "Depth": 120
+    },
+    {
+      "$id": "14",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/Cuda-7.5.18",
+      "Depth": 120
+    },
+    {
+      "$id": "15",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/FPS-1.0",
+      "Depth": 120
+    },
+    {
+      "$id": "16",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/Glew-1.11.0",
+      "Depth": 120
+    },
+    {
+      "$id": "17",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/IGTL-514fb80",
+      "Depth": 120
+    },
+    {
+      "$id": "18",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/Inventor-1.0",
+      "Depth": 120
+    },
+    {
+      "$id": "19",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/IPP-2017.0.1",
+      "Depth": 120
+    },
+    {
+      "$id": "20",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/IPP-8.1",
+      "Depth": 120
+    },
+    {
+      "$id": "21",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/IPP-9.0.3",
+      "Depth": 120
+    },
+    {
+      "$id": "22",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/ITK-4.6",
+      "Depth": 120
+    },
+    {
+      "$id": "23",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/JsonCpp-1.8.0",
+      "Depth": 120
+    },
+    {
+      "$id": "24",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/MKL-11.3.2",
+      "Depth": 120
+    },
+    {
+      "$id": "25",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/MKL-11.3.3",
+      "Depth": 120
+    },
+    {
+      "$id": "26",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/MKL-2017.0.1",
+      "Depth": 120
+    },
+    {
+      "$id": "27",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/Offis-DCMTK-3.6.0",
+      "Depth": 120
+    },
+    {
+      "$id": "28",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/Offis-DCMTK",
+      "Depth": 120
+    },
+    {
+      "$id": "29",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/Sba-1.6",
+      "Depth": 120
+    },
+    {
+      "$id": "30",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/SegmentationAlgo",
+      "Depth": 120
+    },
+    {
+      "$id": "31",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/SOUP",
+      "Depth": 120
+    },
+    {
+      "$id": "32",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/TinyXML-2",
+      "Depth": 120
+    },
+    {
+      "$id": "33",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/TPI",
+      "Depth": 120
+    },
+    {
+      "$id": "34",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/websocketpp-0.7.0",
+      "Depth": 120
+    },
+    {
+      "$id": "35",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/Xerces-3.1.1",
+      "Depth": 120
+    },
+    {
+      "$id": "36",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/Xerces-3.1.4",
+      "Depth": 120
+    },
+    {
+      "$id": "37",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ExternSW/XipMed",
+      "Depth": 120
+    },
+    {
+      "$id": "38",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/ProdDiskImage/Release/IVS/AT_OEM",
+      "Depth": 120
+    },
+    {
+      "$id": "39",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/Acu",
+      "Depth": 120
+    },
+    {
+      "$id": "40",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/AdvAppSupport",
+      "Depth": 120
+    },
+    {
+      "$id": "41",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/Ang",
+      "Depth": 120
+    },
+    {
+      "$id": "42",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/Can",
+      "Depth": 120
+    },
+    {
+      "$id": "43",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/Ccu",
+      "Depth": 120
+    },
+    {
+      "$id": "44",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/F-CPU",
+      "Depth": 120
+    },
+    {
+      "$id": "45",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/OverlayStand",
+      "Depth": 120
+    },
+    {
+      "$id": "46",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/Planning",
+      "Depth": 120
+    },
+    {
+      "$id": "47",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/Pms",
+      "Depth": 120
+    },
+    {
+      "$id": "48",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/Reconstruction",
+      "Depth": 120
+    },
+    {
+      "$id": "49",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/Registration",
+      "Depth": 120
+    },
+    {
+      "$id": "50",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/Rtccsf",
+      "Depth": 120
+    },
+    {
+      "$id": "51",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/Scu",
+      "Depth": 120
+    },
+    {
+      "$id": "52",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/Segmentation",
+      "Depth": 120
+    },
+    {
+      "$id": "53",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/SMI",
+      "Depth": 120
+    },
+    {
+      "$id": "54",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/Syc",
+      "Depth": 120
+    },
+    {
+      "$id": "55",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/Viewer4D",
+      "Depth": 120
+    },
+    {
+      "$id": "56",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/ApplSW/Releases/ApplSW_LATEST/Testdata",
+      "Depth": 120
+    }
+  ],
+  "TestParameters": null,
+  "RetentionPolicyList": [
+    {
+      "$id": "57",
+      "BuildDefinition": null,
+      "BuildReason": 64,
+      "BuildStatus": 2,
+      "NumberToKeep": 10,
+      "DeleteOptions": 29
+    },
+    {
+      "$id": "58",
+      "BuildDefinition": null,
+      "BuildReason": 64,
+      "BuildStatus": 4,
+      "NumberToKeep": 10,
+      "DeleteOptions": 29
+    },
+    {
+      "$id": "59",
+      "BuildDefinition": null,
+      "BuildReason": 64,
+      "BuildStatus": 8,
+      "NumberToKeep": 10,
+      "DeleteOptions": 29
+    },
+    {
+      "$id": "60",
+      "BuildDefinition": null,
+      "BuildReason": 64,
+      "BuildStatus": 16,
+      "NumberToKeep": 1,
+      "DeleteOptions": 29
+    },
+    {
+      "$id": "61",
+      "BuildDefinition": null,
+      "BuildReason": 191,
+      "BuildStatus": 2,
+      "NumberToKeep": 10,
+      "DeleteOptions": 29
+    },
+    {
+      "$id": "62",
+      "BuildDefinition": null,
+      "BuildReason": 191,
+      "BuildStatus": 4,
+      "NumberToKeep": 10,
+      "DeleteOptions": 29
+    },
+    {
+      "$id": "63",
+      "BuildDefinition": null,
+      "BuildReason": 191,
+      "BuildStatus": 8,
+      "NumberToKeep": 10,
+      "DeleteOptions": 29
+    },
+    {
+      "$id": "64",
+      "BuildDefinition": null,
+      "BuildReason": 191,
+      "BuildStatus": 16,
+      "NumberToKeep": 1,
+      "DeleteOptions": 29
+    }
+  ],
+  "ProcessParameters": {
+    "$id": "65",
+    "ProjectsToBuild": [
+      "$/XRay/ApplSW/Releases/ApplSW_LATEST/Sources/App3DHost/AT.App3D.Host.sln"
+    ],
+    "ConfigurationsToBuild": [
+      "x64|Release",
+      "x64|Debug"
+    ],
+    "AdvancedTestSettings": {
+      "AnalyzeTestImpact": false,
+      "DisableTests": false,
+      "PreActionScriptPath": "",
+      "PreActionScriptArguments": "",
+      "PostActionScriptPath": "",
+      "PostActionScriptArguments": ""
+    },
+    "CreateLabel": false,
+    "AdvancedBuildSettings": {
+      "MSBuildArguments": "/p:WorkspaceRoot=\"$(TF_BUILD_SOURCESDIRECTORY)\"\\",
+      "MSBuildPlatform": "X86",
+      "PreActionScriptPath": "",
+      "PreActionScriptArguments": "",
+      "PostActionScriptPath": "\\DevTools\\CMTools\\Buildscripts\\BLR\\APP3D_PostOp.bat",
+      "PostActionScriptArguments": "",
+      "RunCodeAnalysis": "AsConfigured"
+    },
+    "AgentSettings": {
+      "MaxExecutionTime": "00:00:00",
+      "MaxWaitTime": "10:00:00",
+      "Name": "Agent1",
+      "Tags": [],
+      "TagComparison": "MatchExactly"
+    },
+    "OutputLocation": "AsConfigured",
+    "CreateWorkItem": false,
+    "UpdateAssociatedWorkItems": false
+  },
+  "BuildReasons": {},
+  "IntegerParameters": {},
+  "BuildVerbosities": {}
+}

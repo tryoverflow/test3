@@ -1,0 +1,302 @@
+{
+  "$id": "1",
+  "Name": "BLR.SMI.DB",
+  "Description": "Debug For Pms Team @STS",
+  "ContinuousIntegrationType": 16,
+  "BuildController": "BLR- inblrkisnw4894 - Controller",
+  "AgileTestSpecs": null,
+  "ProjectsToBuild": null,
+  "ConfigurationsToBuild": null,
+  "QueueStatus": 0,
+  "ProcessTemplate": "#/1/BuildProcessTemplates/TfvcTemplate/TfvcTemplate.12.xaml",
+  "DefaultDropLocation": "\\\\INBLRKISNEM0041.ad005.onehc.net\\HeliumDrop",
+  "TfvcAgentSettings": null,
+  "GitAgentSettings": {
+    "$id": "2",
+    "Json": "{\"MaxExecutionTime\":\"00:00:00\",\"MaxWaitTime\":\"04:00:00\",\"Name\":\"Agent1\",\"Tags\":[],\"TagComparison\":\"MatchExactly\"}"
+  },
+  "Schedules": [
+    {
+      "$id": "3",
+      "BuildDefinition": null,
+      "Type": 0,
+      "StartTime": 75600,
+      "DaysToBuild": 127,
+      "TimeZone": {
+        "$id": "4",
+        "Id": "India Standard Time",
+        "DisplayName": "(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi",
+        "StandardName": "India Standard Time",
+        "DaylightName": "India Daylight Time",
+        "BaseUtcOffset": "05:30:00",
+        "AdjustmentRules": null,
+        "SupportsDaylightSavingTime": false
+      }
+    }
+  ],
+  "ContinuousIntegrationQuietPeriod": 0,
+  "SourceProviders": [
+    {
+      "$id": "5",
+      "Name": "TFVC",
+      "SupportedTriggerTypes": 127,
+      "Fields": {
+        "$id": "6"
+      }
+    }
+  ],
+  "Mappings": [
+    {
+      "$id": "7",
+      "MappingType": 0,
+      "LocalItem": "$(SourceDir)",
+      "ServerItem": "$/XRay/LATEST",
+      "Depth": 120
+    },
+    {
+      "$id": "8",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/Docs",
+      "Depth": 120
+    },
+    {
+      "$id": "9",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/ProdDiskImage/Release/IVS/AT_OEM",
+      "Depth": 120
+    },
+    {
+      "$id": "10",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/Sources/Acu",
+      "Depth": 120
+    },
+    {
+      "$id": "11",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/Sources/AdvAppSupport",
+      "Depth": 120
+    },
+    {
+      "$id": "12",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/Sources/Ang",
+      "Depth": 120
+    },
+    {
+      "$id": "13",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/Sources/Can",
+      "Depth": 120
+    },
+    {
+      "$id": "14",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/Sources/Ccu",
+      "Depth": 120
+    },
+    {
+      "$id": "15",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/Sources/F-CPU",
+      "Depth": 120
+    },
+    {
+      "$id": "16",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/Sources/OverlayStand",
+      "Depth": 120
+    },
+    {
+      "$id": "17",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/Sources/Planning",
+      "Depth": 120
+    },
+    {
+      "$id": "18",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/Sources/Reconstruction",
+      "Depth": 120
+    },
+    {
+      "$id": "19",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/Sources/Registration",
+      "Depth": 120
+    },
+    {
+      "$id": "20",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/Sources/Rtccsf",
+      "Depth": 120
+    },
+    {
+      "$id": "21",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/Sources/Scu",
+      "Depth": 120
+    },
+    {
+      "$id": "22",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/Sources/Segmentation",
+      "Depth": 120
+    },
+    {
+      "$id": "23",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/Sources/Syc",
+      "Depth": 120
+    },
+    {
+      "$id": "24",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/Sources/Viewer4D",
+      "Depth": 120
+    },
+    {
+      "$id": "25",
+      "MappingType": 1,
+      "LocalItem": null,
+      "ServerItem": "$/XRay/LATEST/Testdata",
+      "Depth": 120
+    }
+  ],
+  "TestParameters": null,
+  "RetentionPolicyList": [
+    {
+      "$id": "26",
+      "BuildDefinition": null,
+      "BuildReason": 64,
+      "BuildStatus": 2,
+      "NumberToKeep": 10,
+      "DeleteOptions": 31
+    },
+    {
+      "$id": "27",
+      "BuildDefinition": null,
+      "BuildReason": 64,
+      "BuildStatus": 4,
+      "NumberToKeep": 10,
+      "DeleteOptions": 31
+    },
+    {
+      "$id": "28",
+      "BuildDefinition": null,
+      "BuildReason": 64,
+      "BuildStatus": 8,
+      "NumberToKeep": 10,
+      "DeleteOptions": 31
+    },
+    {
+      "$id": "29",
+      "BuildDefinition": null,
+      "BuildReason": 64,
+      "BuildStatus": 16,
+      "NumberToKeep": 1,
+      "DeleteOptions": 31
+    },
+    {
+      "$id": "30",
+      "BuildDefinition": null,
+      "BuildReason": 191,
+      "BuildStatus": 2,
+      "NumberToKeep": 10,
+      "DeleteOptions": 31
+    },
+    {
+      "$id": "31",
+      "BuildDefinition": null,
+      "BuildReason": 191,
+      "BuildStatus": 4,
+      "NumberToKeep": 10,
+      "DeleteOptions": 31
+    },
+    {
+      "$id": "32",
+      "BuildDefinition": null,
+      "BuildReason": 191,
+      "BuildStatus": 8,
+      "NumberToKeep": 10,
+      "DeleteOptions": 31
+    },
+    {
+      "$id": "33",
+      "BuildDefinition": null,
+      "BuildReason": 191,
+      "BuildStatus": 16,
+      "NumberToKeep": 1,
+      "DeleteOptions": 31
+    }
+  ],
+  "ProcessParameters": {
+    "$id": "34",
+    "ProjectsToBuild": [
+      "$/XRay/LATEST/Sources/Pms/WinNIE/WinNIE.sln",
+      "$/XRay/LATEST/Sources/Pms/FDCalib/FDCalib.sln",
+      "$/XRay/LATEST/Sources/Pms/Framework/AXSMI_Common/AXSMI_Common.sln",
+      "$/XRay/LATEST/Sources/Pms/Framework/AXSMI_ExternalIntf/AXSMI_ExternalIntf.sln",
+      "$/XRay/LATEST/Sources/Pms/Framework/AXSMI_Framework/AXSMI_Framework.sln",
+      "$/XRay/LATEST/Sources/Pms/SfcsfBase/SfcsfBase.sln",
+      "$/XRay/LATEST/Sources/Pms/SER/SER.sln",
+      "$/XRay/LATEST/Sources/Pms/Rep/Rep.sln",
+      "$/XRay/LATEST/Sources/Pms/RUH/RUH.sln",
+      "$/XRay/LATEST/Sources/Pms/AxZipTool/AxZipTool.sln",
+      "$/XRay/LATEST/Sources/System/AxSystemConfig/AxSystemConfig.sln",
+      "$/XRay/LATEST/Sources/Pms/ADAI/ADAI.sln",
+      "$/XRay/LATEST/Sources/Pms/Install/AxPMS/AxPMS.sln"
+    ],
+    "ConfigurationsToBuild": [
+      "x64|Debug"
+    ],
+    "AdvancedTestSettings": {
+      "AnalyzeTestImpact": false,
+      "DisableTests": false,
+      "PreActionScriptPath": "",
+      "PreActionScriptArguments": "",
+      "PostActionScriptPath": "",
+      "PostActionScriptArguments": ""
+    },
+    "CreateLabel": false,
+    "AdvancedBuildSettings": {
+      "MSBuildArguments": "/p:WorkspaceRoot=\"$(TF_BUILD_SOURCESDIRECTORY)\"\\",
+      "MSBuildPlatform": "Auto",
+      "PreActionScriptPath": "",
+      "PreActionScriptArguments": "",
+      "PostActionScriptPath": "C:\\Perl64\\bin\\perl.exe",
+      "PostActionScriptArguments": "DevTools\\CMTools\\Buildscripts\\BLR\\Perl_Scr\\PMS_Build_Copy.pl",
+      "RunCodeAnalysis": "AsConfigured"
+    },
+    "AgentSettings": {
+      "MaxExecutionTime": "00:00:00",
+      "MaxWaitTime": "04:00:00",
+      "Name": "Agent1",
+      "Tags": [],
+      "TagComparison": "MatchExactly"
+    },
+    "OutputLocation": "AsConfigured",
+    "CreateWorkItem": false,
+    "UpdateAssociatedWorkItems": false
+  },
+  "BuildReasons": {},
+  "IntegerParameters": {},
+  "BuildVerbosities": {}
+}
