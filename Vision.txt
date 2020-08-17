@@ -1,0 +1,1 @@
+https://medium.com/@karan.pratapsingh686/how-to-use-googles-cloud-vision-api-in-node-js-40a1d1528398
